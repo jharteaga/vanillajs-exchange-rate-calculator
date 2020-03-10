@@ -81,8 +81,10 @@ p {
 
 select:focus,
 input:focus,
-button:focus {
+button:focus,
+input:invalid {
   outline: 0;
+  box-shadow: none;
 }
 
 @media (max-width: 600px) {
